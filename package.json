@@ -2,7 +2,7 @@
   "name": "odc-app-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gv-greg.github.io/office-des-coffres-front",
+  "homepage": "https://officedescoffres.creacube.be",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@testing-library/jest-dom": "^5.15.0",

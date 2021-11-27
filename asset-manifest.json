@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Office-des-Coffres-front/static/css/main.7bcccdda.chunk.css",
+    "main.css": "/Office-des-Coffres-front/static/css/main.2c35c509.chunk.css",
     "main.js": "/Office-des-Coffres-front/static/js/main.2c6ce57b.chunk.js",
     "main.js.map": "/Office-des-Coffres-front/static/js/main.2c6ce57b.chunk.js.map",
     "runtime-main.js": "/Office-des-Coffres-front/static/js/runtime-main.b6a6c191.js",
@@ -10,13 +10,13 @@
     "static/js/3.b0772e90.chunk.js": "/Office-des-Coffres-front/static/js/3.b0772e90.chunk.js",
     "static/js/3.b0772e90.chunk.js.map": "/Office-des-Coffres-front/static/js/3.b0772e90.chunk.js.map",
     "index.html": "/Office-des-Coffres-front/index.html",
-    "static/css/main.7bcccdda.chunk.css.map": "/Office-des-Coffres-front/static/css/main.7bcccdda.chunk.css.map",
+    "static/css/main.2c35c509.chunk.css.map": "/Office-des-Coffres-front/static/css/main.2c35c509.chunk.css.map",
     "static/js/2.4305e3cf.chunk.js.LICENSE.txt": "/Office-des-Coffres-front/static/js/2.4305e3cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6a6c191.js",
     "static/js/2.4305e3cf.chunk.js",
-    "static/css/main.7bcccdda.chunk.css",
+    "static/css/main.2c35c509.chunk.css",
     "static/js/main.2c6ce57b.chunk.js"
   ]
 }

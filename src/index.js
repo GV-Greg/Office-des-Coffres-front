@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     <React.StrictMode>
-        <Router basename='/'>
+        <Router basename={window.location.pathname || ''}>
             <App className="m-0 p-0"/>
         </Router>
     </React.StrictMode>,

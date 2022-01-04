@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
+<<<<<<< HEAD
   purge: {
     content:['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     safelist: [
@@ -33,6 +34,17 @@ module.exports = {
     ]
   },
   darkMode: false, // or 'media' or 'class'
+=======
+  content: [
+      "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  safelist: [
+    { pattern: /text-(gray|yellow|salmon|teal|slate|blue)-(100|200|300|400|500|600|700|800|900)/, },
+    { pattern: /ring-offset-(gray|yellow|salmon|teal|slate|blue)-(100|200|300|400|500|600|700|800|900)/, },
+    { pattern: /ring-(gray|yellow|salmon|teal|slate|blue)-(100|200|300|400|500|600|700|800|900)/, },
+    { pattern: /bg-(gray|yellow|salmon|teal|slate|blue)-(100|200|300|400|500|600|700|800|900)/, },
+  ],
+>>>>>>> develop
   theme: {
     container: {
       center: true,
@@ -42,7 +54,11 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
+<<<<<<< HEAD
       blueGray: colors.blueGray,
+=======
+      slate: colors.slate,
+>>>>>>> develop
       gray: colors.gray,
       red: colors.red,
       orange: colors.orange,
@@ -56,9 +72,40 @@ module.exports = {
       pink: colors.fuchsia,
       salmon: colors.rose,
     },
+<<<<<<< HEAD
     extend: {},
   },
   variants: {
+=======
+    fontSize: {
+      'xs': '.75rem',
+      'sm': '.875rem',
+      'base': '1rem',
+      'lg': '1.125rem',
+      'xl': '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '3.75rem',
+      '7xl': '4.5rem',
+      '8xl': '6rem',
+      '9xl': '8rem',
+      '10xl': '10rem',
+    },
+    rotate: {
+      '-180': '-180deg',
+      '-90': '-90deg',
+      '-45': '-45deg',
+      '0': '0',
+      '45': '45deg',
+      '90': '90deg',
+      '135': '135deg',
+      '180': '180deg',
+      '225': '225deg',
+      '270': '270deg',
+    },
+>>>>>>> develop
     extend: {},
   },
   plugins: [],

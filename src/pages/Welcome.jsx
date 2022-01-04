@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-export default function Home() {
-    return (
-        <div className="overflow-y-auto flex flex-col flex-grow">
-            <h2>Bienvenue !</h2>
-            {/*<div>Vous êtes entré dans l'Office des coffres.</div>*/}
-            {/*<p></p>*/}
-        </div>
-    );
-}
-=======
 import {GoShield} from "react-icons/go";
 import {GiBroadheadArrow} from "react-icons/gi";
 import {Link} from "react-router-dom";
@@ -31,4 +20,3 @@ const Welcome = () => {
 }
 
 export default Welcome;
->>>>>>> develop

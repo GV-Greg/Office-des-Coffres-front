@@ -2,7 +2,7 @@ import axios from 'axios';
 
 let apiDomain = "";
 if(process.env.NODE_ENV === "production") {
-    apiDomain = "https://www.officedescoffres.creacube.be/public/api";
+    apiDomain = "https://odc-admin.creacube.be/public/api";
 } else {
     apiDomain = "http://odc.local/odc-api-back/public/api";
 }

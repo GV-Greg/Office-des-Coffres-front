@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-export default function Login() {
-    return (
-        <div className="overflow-y-auto flex flex-col flex-grow">
-            <h2>Page Login</h2>
-        </div>
-    );
-=======
 import React, { useState } from 'react';
 import {Link, useNavigate} from "react-router-dom";
 import AuthService from "../../services/auth.service";
@@ -96,5 +88,4 @@ export default function Login() {
             </div>
         </main>
     )
->>>>>>> develop
 }
